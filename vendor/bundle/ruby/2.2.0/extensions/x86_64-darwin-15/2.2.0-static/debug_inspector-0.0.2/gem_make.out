@@ -1,0 +1,11 @@
+/Users/daiki/.rbenv/versions/2.2.6/bin/ruby -r ./siteconf20170310-77241-1jamine.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20170310-77241-1iv3jei
